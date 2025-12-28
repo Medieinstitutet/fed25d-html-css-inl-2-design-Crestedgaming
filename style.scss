@@ -33,6 +33,8 @@ h2.sips {
     color: #2B6EDA;
 }
 
+
+
 .menu-panel {
     max-height: 0;
     overflow: hidden;
@@ -64,7 +66,7 @@ div {
 }
 
 section {
-    grid-column: span 4;
+    grid-column: span 2;
 
 }
 
@@ -74,8 +76,8 @@ ul {
     border-top: solid 2px black;
     list-style: none;
     padding: 8px;
-
 }
+
 
 
 .coffee {
@@ -92,16 +94,32 @@ ul {
     margin-bottom: 6px;
 }
 
+.iced-coffee {
+    list-style: none;
+    font-weight: 700;
+    padding: 6px 0 10px 0;
+    margin-bottom: 6px;
+}
+
 li {
     margin-top: 15px;
+    display: block;
+
 }
 
 .flex-list {
     list-style: none;
     margin: 0;
-    padding: 8px;
-
+    padding: 0;
+    width: 100%;
 }
+
+.menu-box,
+.menu-box2,
+.menu-box3 {
+    display: block;
+}
+
 
 .flex-list li {
     display: flex;
@@ -111,10 +129,7 @@ li {
 
 }
 
-.flex-list .item {
-    display: inline-block;
-    margin-right: 12rem;
-}
+
 
 .flex-list .price {
     white-space: nowrap;
