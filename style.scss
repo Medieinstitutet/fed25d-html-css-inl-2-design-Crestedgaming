@@ -4,7 +4,9 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    padding: 8px;
+    padding: 0;
+    height: 100%;
+    margin: 0;
 
 }
 
@@ -25,8 +27,7 @@ header {
     flex-wrap: wrap;
     color: white;
     padding: 8px;
-
-
+    width: 100%;
 }
 
 h2.sips {
@@ -50,6 +51,8 @@ h2.sips {
 
 }
 
+
+
 .menu-btn {
     cursor: pointer;
     display: inline-block;
@@ -71,9 +74,8 @@ section {
 }
 
 ul {
-    border-right: solid 2px #000;
-    border-bottom: solid 2px #000;
-    border-top: solid 2px black;
+    border-right: solid 2px #2B6EDA;
+    border-top: solid 2px #2B6EDA;
     list-style: none;
     padding: 8px;
 }
