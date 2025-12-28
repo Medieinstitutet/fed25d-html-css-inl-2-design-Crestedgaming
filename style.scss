@@ -8,6 +8,15 @@ body {
 
 }
 
+/* small tablet styles */
+@media screen and (min-width: 620px) {}
+
+/* large tablets and laptop styles */
+@media screen and (min-width: 960px) {}
+
+/* desctop styles */
+@media screen and (min-width: 1200px) {}
+
 header {
     background-color: #2B6EDA;
     color: white;
@@ -18,6 +27,10 @@ header {
     padding: 8px;
 
 
+}
+
+h2.sips {
+    color: #2B6EDA;
 }
 
 .menu-panel {
@@ -51,7 +64,7 @@ div {
 }
 
 section {
-    grid-column: span 2;
+    grid-column: span 4;
 
 }
 
@@ -64,7 +77,20 @@ ul {
 
 }
 
-.Coffee {}
+
+.coffee {
+    list-style: none;
+    font-weight: 700;
+    padding: 6px 0 10px 0;
+    margin-bottom: 6px;
+}
+
+.special-coffee {
+    list-style: none;
+    font-weight: 700;
+    padding: 6px 0 10px 0;
+    margin-bottom: 6px;
+}
 
 li {
     margin-top: 15px;
@@ -73,7 +99,8 @@ li {
 .flex-list {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 8px;
+
 }
 
 .flex-list li {
@@ -86,7 +113,7 @@ li {
 
 .flex-list .item {
     display: inline-block;
-    margin-right: 1rem;
+    margin-right: 12rem;
 }
 
 .flex-list .price {
