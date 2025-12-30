@@ -73,13 +73,25 @@ section {
 
 }
 
-.sips2 {
+.sips2,
+.grub2 {
     margin-top: 68px;
 }
 
 
-ul {
-    border-right: solid 2px #2B6EDA;
+.menu-box,
+.menu-box2,
+.menu-box3,
+{
+border-right: solid 2px #2B6EDA;
+border-top: solid 2px #2B6EDA;
+list-style: none;
+padding: 8px;
+}
+
+.menu-box4,
+.menu-box5 {
+
     border-top: solid 2px #2B6EDA;
     list-style: none;
     padding: 8px;
@@ -124,7 +136,12 @@ li {
 .menu-box,
 .menu-box2,
 .menu-box3,
-.menu-box4 {
+.menu-box4,
+.menu-box5,
+.menu-box6,
+.menu-box7,
+.menu-box8,
+.menu-box9 {
     display: block;
 
 }
@@ -135,7 +152,7 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 10px;
 
 }
 
@@ -145,4 +162,8 @@ li {
     white-space: nowrap;
     color: #666;
     font-weight: 600;
+}
+
+.flex-list .item {
+    text-transform: uppercase;
 }
