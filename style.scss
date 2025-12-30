@@ -10,6 +10,9 @@ body {
 
 }
 
+
+
+
 /* small tablet styles */
 @media screen and (min-width: 620px) {}
 
@@ -30,10 +33,11 @@ header {
     width: 100%;
 }
 
+h2 {}
+
 h2.sips {
     color: #2B6EDA;
 }
-
 
 
 .menu-panel {
@@ -47,7 +51,7 @@ h2.sips {
 }
 
 .menu-toggle:checked+.menu-btn+.menu-panel {
-    max-height: 200px;
+    max-height: 300px;
 
 }
 
@@ -71,6 +75,10 @@ div {
 section {
     grid-column: span 2;
 
+}
+
+.news-contacts {
+    grid-column: span 3;
 }
 
 .sips2,
