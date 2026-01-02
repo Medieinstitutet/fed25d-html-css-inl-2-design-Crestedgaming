@@ -39,6 +39,15 @@ h2.sips {
     color: #2B6EDA;
 }
 
+.pink {
+    color: #F79EB0;
+
+}
+
+.yellow {
+    color: #FFB205;
+}
+
 
 .menu-panel {
     max-height: 0;
@@ -51,7 +60,8 @@ h2.sips {
 }
 
 .menu-toggle:checked+.menu-btn+.menu-panel {
-    max-height: 300px;
+    max-height: 100%;
+
 
 }
 
@@ -80,6 +90,9 @@ section {
 .news-contacts {
     grid-column: span 3;
 }
+
+
+
 
 .sips2,
 .grub2 {
@@ -134,6 +147,7 @@ li {
     margin-top: 15px;
     display: block;
 
+
 }
 
 .flex-list {
@@ -178,3 +192,6 @@ li {
 .flex-list .item {
     text-transform: uppercase;
 }
+
+input [type=text],
+select {}
