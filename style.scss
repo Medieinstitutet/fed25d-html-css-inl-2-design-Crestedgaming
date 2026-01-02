@@ -49,6 +49,14 @@ font-size: 4em;
 
 }
 
+p,
+.fire {
+    font-family: "Fira Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1em;
+}
 
 
 h2.sips {
@@ -58,6 +66,7 @@ h2.sips {
 .grub {
     color: #422B2B;
 }
+
 
 .pink {
     color: #F79EB0;
@@ -142,30 +151,40 @@ padding: 8px;
 
 
 
-.coffee {
+.coffee,
+.special-coffee,
+.iced-coffee,
+.non-coffee,
+.add-ons {
     list-style: none;
     padding: 6px 0 10px 0;
     margin-bottom: 6px;
     font-family: "Oi", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 2em;
+    font-size: 1.5em;
     color: #2B6EDA;
+    white-space: nowrap;
 }
 
-.special-coffee {
+.Savory-Brekkie,
+.sweet-brekki,
+.baked-goods,
+.add-ons2 {
     list-style: none;
-    font-weight: 700;
     padding: 6px 0 10px 0;
     margin-bottom: 6px;
+    font-family: "Oi", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+    color: #422B2B;
+    white-space: nowrap;
 }
 
-.iced-coffee {
-    list-style: none;
-    font-weight: 700;
-    padding: 6px 0 10px 0;
-    margin-bottom: 6px;
-}
+
+
+
 
 li {
     margin-top: 15px;
@@ -218,9 +237,18 @@ li {
 
 }
 
+
+
+
 .flex-list .item {
     text-transform: uppercase;
+    white-space: nowrap;
 }
 
 input [type=text],
 select {}
+
+footer {
+    border-top: solid 2px #2B6EDA;
+
+}
