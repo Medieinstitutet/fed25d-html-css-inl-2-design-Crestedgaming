@@ -1,13 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-image: url(img/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-width: 100%;
     padding: 0;
     height: 100%;
     margin: 0;
-
+    overflow-x: hidden;
 }
 
 
@@ -59,21 +64,22 @@ header {
     flex-wrap: wrap;
     color: white;
     padding: 8px;
-    width: 100%;
+    box-sizing: border-box;
 }
 
 h1 {
     font-family: "Bagel Fat One", system-ui;
     font-weight: 400;
     font-style: normal;
-    font-size: 4em;
+    font-size: clamp(1.5em, 8vw, 4em);
+    margin: 0;
 }
 
 h2 {
     font-family: "Oi", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 4em;
+    font-size: clamp(1.5em, 6vw, 4em);
     margin-bottom: 0%;
 }
 
@@ -193,7 +199,6 @@ padding: 8px;
     font-style: normal;
     font-size: 1.5em;
     color: #2B6EDA;
-    white-space: nowrap;
 }
 
 .Savory-Brekkie,
@@ -208,7 +213,6 @@ padding: 8px;
     font-style: normal;
     font-size: 1.5em;
     color: #422B2B;
-    white-space: nowrap;
 }
 
 
@@ -271,7 +275,8 @@ li {
 
 .flex-list .item {
     text-transform: uppercase;
-    white-space: nowrap;
+    overflow-wrap: break-word;
+    word-break: break-word;
 }
 
 input [type=text],
