@@ -160,7 +160,7 @@ section {
 
 
 
-.sips2 {}
+
 
 
 .menu-box,
@@ -169,7 +169,7 @@ section {
 {
 border-right: solid 2px #2B6EDA;
 border-top: solid 2px #2B6EDA;
-list-style: none;
+
 padding: 8px;
 }
 
@@ -177,7 +177,24 @@ padding: 8px;
 .menu-box5 {
 
     border-top: solid 2px #2B6EDA;
-    list-style: none;
+
+    padding: 8px;
+}
+
+.menu-box6,
+.menu-box7,
+{
+border-right: solid 2px #422B2B;
+border-top: solid 2px #422B2B;
+
+padding: 8px;
+}
+
+.menu-box8,
+.menu-box9 {
+
+    border-top: solid 2px #422B2B;
+
     padding: 8px;
 }
 
@@ -218,7 +235,8 @@ padding: 8px;
 
 
 
-li {
+li,
+h3 {
     margin-top: 15px;
     display: block;
     font-family: "Lilita One", sans-serif;
@@ -256,7 +274,7 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2px;
+    padding: 0;
 
 
 }
@@ -265,7 +283,7 @@ li {
 
 .flex-list .price {
     white-space: nowrap;
-
+    padding: 0%;
 
 }
 
@@ -285,8 +303,7 @@ form {
     word-break: break-word;
 }
 
-input [type=text],
-select {}
+
 
 footer {
     border-top: solid 2px #2B6EDA;
