@@ -63,6 +63,10 @@ header {
     box-sizing: border-box;
 }
 
+.visually-hidden {
+    visibility: hidden;
+}
+
 h1 {
     font-family: "Bagel Fat One", system-ui;
     font-weight: 400;
@@ -286,5 +290,6 @@ select {}
 
 footer {
     border-top: solid 2px #2B6EDA;
+    margin-top: 40px;
 
 }
