@@ -174,20 +174,25 @@ section {
 
 
 
-.menu-box,
-.menu-box2,
-.menu-box3 {
+.menu-box {
     border-right: solid 2px #2B6EDA;
     border-top: solid 2px #2B6EDA;
+    padding-top: 12px;
 
+}
 
+.menu-box2,
+.menu-box3 {
+    border-top: solid 2px #2B6EDA;
+    border-right: solid 2px #2B6EDA;
+    padding-top: 17px;
 }
 
 .menu-box4,
 .menu-box5 {
 
     border-top: solid 2px #2B6EDA;
-
+    padding-top: 12px;
 
 }
 
@@ -195,7 +200,7 @@ section {
 .menu-box7 {
     border-right: solid 2px #422B2B;
     border-top: solid 2px #422B2B;
-
+    padding-top: 12px;
 
 }
 
@@ -203,7 +208,7 @@ section {
 .menu-box9 {
 
     border-top: solid 2px #422B2B;
-
+    padding-top: 12px;
 
 }
 
@@ -220,6 +225,26 @@ section {
 
 }
 
+.menu-box3>*,
+.menu-box5>*,
+.menu-box7>*,
+.menu-box9>* {
+    margin-top: 0;
+}
+
+.flex-list li:first-child {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.menu-box3,
+.menu-box5,
+.menu-box7,
+.menu-box9 {
+    align-self: start;
+    grid-row: auto;
+}
+
 
 
 
@@ -230,8 +255,8 @@ section {
 .non-coffee,
 .add-ons {
     list-style: none;
-    padding: 6px 0 10px 0;
-    margin-bottom: 6px;
+    padding: 0 0 10px 0;
+    margin: 0 0 10px 0;
     font-family: "Oi", serif;
     font-weight: 400;
     font-style: normal;
@@ -244,8 +269,8 @@ section {
 .baked-goods,
 .add-ons2 {
     list-style: none;
-    padding: 6px 0 10px 0;
-    margin-bottom: 6px;
+    padding: 0 0 10px 0;
+    margin: 0 0 10px 0;
     font-family: "Oi", serif;
     font-weight: 400;
     font-style: normal;
@@ -257,9 +282,11 @@ section {
 
 
 
-li,
+
+
+
 h3 {
-    margin-top: 15px;
+    margin-top: 14px;
     display: grid;
     font-family: "Lilita One", sans-serif;
     font-weight: 400;
@@ -296,7 +323,10 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0;
+    padding: 8px;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 
 
 }
