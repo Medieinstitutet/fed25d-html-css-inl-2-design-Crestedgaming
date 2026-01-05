@@ -55,6 +55,10 @@ main {
     .news-contacts {
         grid-column: span 3;
     }
+
+    .contact-form {
+        grid-column: span 2;
+    }
 }
 
 header {
@@ -165,6 +169,8 @@ section {
     grid-column: span 3;
     margin-left: 25px;
 }
+
+
 
 
 .line {
@@ -358,8 +364,10 @@ h3 {
 form {
     display: flex;
     flex-direction: column;
-    max-width: 400px;
+    max-width: 150px;
     margin: 0 auto;
+    position: relative;
+    right: 150px;
 
 }
 
