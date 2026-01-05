@@ -236,14 +236,20 @@
                 <h2 class="yellow">Contacts</h2>
 
                 <form>
-                    <label for="name">First Name:</label>
-                    <input id="name" type="text" class="name" name="name" required>
+                    <div class="field">
+                        <input type="text" id="name" name="name" placeholder=" " required>
+                        <label for="name">First name</label>
+                    </div>
 
-                    <label for="email">E-mail:</label>
-                    <input id="email" type="email" class="email" name="email" required>
+                    <div class="field">
+                        <input type="email" id="email" name="email" placeholder=" " required>
+                        <label for="email">Email</label>
+                    </div>
 
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" required></textarea>
+                    <div class="field">
+                        <textarea id="message" name="message" placeholder=" " required></textarea>
+                        <label for="message">Message</label>
+                    </div>
 
                     <button type="submit">Submit</button>
                 </form>
