@@ -43,6 +43,12 @@ h2.sips {
     color: #2B6EDA;
 }
 
+.h2-form {
+    color: #FFB205;
+    border-bottom: solid 2px #FFB205;
+
+}
+
 h3 {
     margin-top: 14px;
     display: grid;
@@ -241,6 +247,10 @@ section {
     margin-left: 20px;
 }
 
+.news-box {
+    border-top: solid 2px #F79EB0;
+}
+
 /* ========================================
    MENU ITEMS & LISTS
 ======================================== */
@@ -325,17 +335,36 @@ section {
     top: 60px;
 }
 
+.heart {
+    position: relative;
+    left: 500px;
+    top: -60px;
+
+}
+
 /* ========================================
    CONTACT FORM
 ======================================== */
 form {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     max-width: 150px;
-    margin: 0 auto;
-    position: relative;
-    right: 150px;
+    margin-top: 40px;
+    vertical-align: top;
 }
+
+form:first-of-type {
+    margin-right: 40px;
+}
+
+.checkbox {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+}
+
+
 
 .field {
     position: relative;
