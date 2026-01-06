@@ -237,6 +237,10 @@ section {
     margin-top: 0;
 }
 
+.grub {
+    margin-left: 20px;
+}
+
 /* ========================================
    MENU ITEMS & LISTS
 ======================================== */
@@ -345,6 +349,7 @@ form {
     border-radius: 8px;
     background: #8FA8DB;
     outline: none;
+    border: none;
     font-family: "Fira Code", monospace;
 }
 
@@ -368,6 +373,17 @@ form {
     top: -8px;
     font-size: 0.75em;
     color: #000000;
+}
+
+button {
+    position: relative;
+    left: 75px;
+    border-radius: 8px;
+    background-color: #2B6EDA;
+    color: white;
+    border: none;
+    width: 50%;
+    height: 40px;
 }
 
 /* ========================================
