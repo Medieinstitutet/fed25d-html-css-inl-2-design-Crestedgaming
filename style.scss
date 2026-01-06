@@ -364,6 +364,50 @@ form:first-of-type {
     position: relative;
 }
 
+.checkbox fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #8FA8DB;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #2B6EDA;
+}
+
+input[type="checkbox"]:checked::after {
+    content: "✓";
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.checkbox label {
+    cursor: pointer;
+    margin-left: 8px;
+    font-family: "Fira Code", monospace;
+}
+
+.checkbox div {
+    display: flex;
+    align-items: center;
+}
 
 
 .field {
