@@ -302,6 +302,7 @@ section {
     font-style: normal;
     font-size: 1.5em;
     color: #2B6EDA;
+    margin-left: 5px;
 }
 
 /* Food Category Headers (Brown) */
@@ -317,6 +318,7 @@ section {
     font-style: normal;
     font-size: 1.5em;
     color: #422B2B;
+    margin-left: 5px;
 }
 
 /* ========================================
@@ -370,7 +372,7 @@ form:first-of-type {
     margin: 0;
 }
 
-input[type="checkbox"] {
+.checkbox input[type="checkbox"] {
     appearance: none;
     width: 20px;
     height: 20px;
@@ -383,11 +385,11 @@ input[type="checkbox"] {
     vertical-align: middle;
 }
 
-input[type="checkbox"]:checked {
+.checkbox input[type="checkbox"]:checked {
     background-color: #2B6EDA;
 }
 
-input[type="checkbox"]:checked::after {
+.checkbox input[type="checkbox"]:checked::after {
     content: "✓";
     position: absolute;
     color: white;
